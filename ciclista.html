@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+     <link rel="icon" type="image/png" href="multimedia/favicon.ico" />
+
+    <meta name="author" content="Héctor Gavilán Menéndez" />
+    <meta name="description" content=" Documento ciclista.html del proyecto LaVuelta2026" />
+    
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+   <!-- contenido de ciclista.html  -->
+      <header>
+        <h1><a href="index.html" title="Página principal de LaVuelta2026">La Vuelta 2026</a></h1>
+         <nav>
+        <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
+        <a href="ciclista.html" aria-current="page" title="Información y datos del ciclista">Ciclista</a>
+        <a href="equipo.html" title="Información sobre el equipo del ciclista">Equipo</a>
+        <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
+        <a href="meteorologia.html" title="Previsión meteorológica de la etapa">Meteorología</a>
+        <a href="clasificaciones.html" title="Clasificaciones generales y por equipos">Clasificaciones</a>
+        <a href="juegos.html" title="Juego sobre la LaVuelta2026">Juegos</a>
+        <a href="ayuda.html" title="Ayuda y manual de uso del sitio web LaVuelta2026">Ayuda</a>
+    </nav>
+        </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html" title="Página principal de LaVuelta2026">Inicio</a></li>
+            <li>>></li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+        <main>
+        <h2>Sente Sentjens</h2>
+        <section>
+            <h3>Datos personales</h3>     
+            <ul>
+                <li>Sente Sentjens</li>
+                <li>02/09/2005</li>
+                <li>Belgica</li>
+                <li>ALPECIN-PREMIER TECH</li>
+                <li>108</li>
+            </ul>
+         
+         <picture>
+            <!-- Para pantallas menores de 768-->
+            <source media ="(max-width: 768px)" srcset="multimedia/sente_movil.png" width="169" height="256" />
+            <!-- Para pantallas menores de 1024-->
+            <source media ="(max-width: 1024px)" srcset="multimedia/sente_tablet.png" width="225" height="341" />  
+            <!-- Para el resto de dispostivos, se mostrará la imagen por defecto -->
+            <img src="multimedia/sente.png" alt="Sente Sentjens" title="Sente Sentjens" width="282" height="427" />
+          
+         </picture>
+           </section>
+            <section>
+                <h3>Datos equipos</h3>
+                <ol>
+                    <li>ALPECIN-PREMIER TECH</li>
+                    <li>ALPECIN-DECENINCK DEVELOPTMENT TEAM</li>
+                    <li>ALPECIN-DECENINCK DEVELOPTMENT TEAM</li>
+                    <li>ACROG-TORMANS</li>
+                    <li>ACROG-BALEN BC JUNIOR</li>
+                </ol>
+        </section>
+           <section>
+    <h3>Temporada 2025</h3>
+    <table>
+    <tr>
+        <th id="dato" scope="col">Dato</th>
+        <th id="resultado" scope="col">Resultado</th>
+    </tr>
+    <tr>
+        <th id="carreras" scope="row" headers="dato">Carreras</th>
+        <td headers="resultado carreras">21</td>
+    </tr>
+    <tr>
+        <th id="etapas" scope="row" headers="dato">Victorias de etapa</th>
+        <td headers="resultado etapas">0</td>
+    </tr>
+    <tr>
+        <th id="generales" scope="row" headers="dato">Victorias en general</th>
+        <td headers="resultado generales">13</td>
+    </tr>
+    <tr>
+        <th id="podios" scope="row" headers="dato">Podios</th>
+        <td headers="resultado podios">29</td>
+    </tr>
+    <tr>
+        <th id="maillots" scope="row" headers="dato">Maillots</th>
+        <td headers="resultado maillots">1</td>
+    </tr>
+    <tr>
+        <th id="dias" scope="row" headers="dato">Días de competición</th>
+        <td headers="resultado dias">54</td>
+    </tr>
+</table>
+
+</section>
+
+    <section>
+        <h3>Multimedia</h3>
+        <p>
+            Equipo <a href="https://www.lavuelta.es/es/equipo/APT/alpecin-premier-tech" target="_blank" title="Sitio web del equipo en la Vuelta Ciclista a España 2026">Alpecin-Premier Tech</a> en la Vuelta Ciclista a España 2026
+        </p>
+        <video controls width="320" height="240" poster="multimedia/miembros_equipo.png">
+            <source src="multimedia/alpecin.mp4" type="video/mp4" />
+            <source src="multimedia/alpecin.webm" type="video/webm" />
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <audio controls>
+            <source src="multimedia/alpecin.mp3" type="audio/mpeg" />
+            <source src="multimedia/alpecin.wav" type="audio/wav" />
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </section>
+</main>
+    <footer>
+        <p>Héctor Gavilán Menéndez</p>
+        <address>
+            <a href="mailto:UO306079@uniovi.es" title="Enviar un correo electrónico al autor">UO306079@uniovi.es</a>
+        </address>
+    </footer>
+</body>
+</html>
