@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="rojo">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="verde">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="azul">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="amarillo">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="linea_ruta">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Placemark>
+      <name>Falset (Salida)</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.8185,41.1458,270</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rotonda Capçanes</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.8281,41.1005,220</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Els Guiamets</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.7514,41.1021,220</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Móra la Nova</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.6506,41.1008,44</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ginestar</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.6332,41.0425,26</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cruce T-302 (Rasquera)</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5954,41.0011,130</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo intermedio T-302</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.6512,40.9345,205</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El Perelló</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.7118,40.8741,157</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L'Ampolla</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.7093,40.8105,13</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deltebre</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.7281,40.7186,10</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sant Jaume d'Enveja</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.7165,40.7104,5</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amposta</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5788,40.7052,10</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ribera del Ebro</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5512,40.7601,14</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tortosa (Primer paso)</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5216,40.8124,10</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bitem</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5255,40.8521,18</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paso por Tivenys</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5123,40.9083,15</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benifallet</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5281,40.9754,18</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rotonda Prat de Comte</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.4905,40.9902,90</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Inicio ascenso Puerto</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.4208,40.9351,130</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cima Puerto de Paüls</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.4005,40.9238,381</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paüls (Exterior)</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.4158,40.9152,290</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Xerta</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.4912,40.9056,12</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tortosa (Segundo paso)</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5204,40.8153,12</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Roquetes (Meta)</name>
+      <description>Hito de ruta</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.5008,40.8194,25</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Salida de etapa</name>
+      <description>Inicio</description>
+      <styleUrl>#rojo</styleUrl>
+      <Point>
+        <coordinates>0.8185,41.1458,270</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta de etapa</name>
+      <description>Final</description>
+      <styleUrl>#rojo</styleUrl>
+      <Point>
+        <coordinates>0.5008,40.8194,25</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Paüls</name>
+      <description>Puerto de Montaña</description>
+      <styleUrl>#verde</styleUrl>
+      <Point>
+        <coordinates>0.4005,40.9238,381</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tivenys</name>
+      <description>Sprint Intermedio</description>
+      <styleUrl>#azul</styleUrl>
+      <Point>
+        <coordinates>0.5123,40.9416,15</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de la etapa</name>
+      <styleUrl>#linea_ruta</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>0.8185,41.1458,270
+0.8281,41.1005,220
+0.7514,41.1021,220
+0.6506,41.1008,44
+0.6332,41.0425,26
+0.5954,41.0011,130
+0.6512,40.9345,205
+0.7118,40.8741,157
+0.7093,40.8105,13
+0.7281,40.7186,10
+0.7165,40.7104,5
+0.5788,40.7052,10
+0.5512,40.7601,14
+0.5216,40.8124,10
+0.5255,40.8521,18
+0.5123,40.9083,15
+0.5281,40.9754,18
+0.4905,40.9902,90
+0.4208,40.9351,130
+0.4005,40.9238,381
+0.4158,40.9152,290
+0.4912,40.9056,12
+0.5204,40.8153,12
+0.5008,40.8194,25</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

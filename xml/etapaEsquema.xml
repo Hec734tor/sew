@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etapa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.uniovi.es etapa.xsd"
+       xmlns="http://www.uniovi.es">
+    <nombreEtapa>Falset. Costa Daurada-Roquetes. Terres de l´Ebre</nombreEtapa>
+    <numeroEtapa>5</numeroEtapa>
+    <longitudEtapa unidades="km">173.3</longitudEtapa>
+    <fechaEtapa>2026-08-26</fechaEtapa>
+    <tiempoGanador>PT3H47M2S</tiempoGanador>
+    <velocidadMedia unidades="km/h">45.8</velocidadMedia>
+    <desnivel unidades="m">1662</desnivel>
+    <ciudadSalida>Falset.Costa Daurada</ciudadSalida>
+    <ciudadLlegada>Roquetes. Terres</ciudadLlegada>
+    <tipoEtapa valor="ondulada"/>
+
+    <referencias>
+        <referencia>https://costadaurada.info/</referencia>
+        <referencia>https://roquetes.cat/web/</referencia>
+        <referencia>https://www.falset.org/</referencia>
+        <referencia>https://www.turismepriorat.org/</referencia>
+        <referencia>https://terresdelebre.travel</referencia>
+    </referencias>
+
+    <galeriaFotos>
+        <foto>Salida.jpg</foto>
+        <foto>Puerto.jpg</foto>
+        <foto>Meta.jpg</foto>
+        <foto>Mapa.jpg</foto>
+    </galeriaFotos>
+
+    <galeriaVideos>
+        <video>ResumenEtapa.mp4</video>
+        <video>CimaPuerto.mp4</video>
+        <video>LlegadaMeta.mp4</video>
+    </galeriaVideos>
+
+    <galeriaSonidos>
+        <sonido>PodcastSalida.mp3</sonido>
+        <sonido>PodcastRuta.mp3</sonido>
+        <sonido>PodcastMeta.mp3</sonido>
+    </galeriaSonidos>
+
+    <salida>
+        <longitud unidades="grados">0.8185</longitud>
+        <latitud unidades="grados">41.1458</latitud>
+         <altitud unidades="m" >270 </altitud>
+
+    </salida> 
+    <meta>
+        <longitud unidades="grados">0.5008</longitud>
+        <latitud unidades="grados">40.8194</latitud>
+        <altitud unidades="m">25 </altitud>
+
+    </meta> 
+
+    <hitos>
+    <puertos>
+        <puerto tipoPuerto="3_categoría">
+            <nombre>Puerto de Paüls</nombre>
+            <longitud unidades="grados">0.4005</longitud>
+            <latitud unidades="grados">40.9238</latitud>
+            <altitud unidades="m">381</altitud>
+            <distancia unidades="km">148.4</distancia>
+        </puerto>
+    </puertos>
+
+    <sprints>
+        <sprint tipoSprint="bonificado">
+            <nombre>Tivenys</nombre>
+            <longitud unidades="grados">0.5123</longitud>
+            <latitud unidades="grados">40.9416</latitud>
+            <altitud unidades="m">15</altitud>
+            <distancia unidades="km">114.7</distancia>
+        </sprint>
+    </sprints>
+    <puntosAnonimos>
+        <!-- Tramo inicial: Falset a Móra la Nova -->
+        <puntoAnonimo>
+            <nombre>Falset (Salida)</nombre>
+            <longitud unidades="grados">0.8185</longitud>
+            <latitud unidades="grados">41.1458</latitud>
+            <altitud unidades="m">270</altitud>
+            <distancia unidades="km">0.0</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Rotonda Capçanes</nombre>
+            <longitud unidades="grados">0.8281</longitud>
+            <latitud unidades="grados">41.1005</latitud>
+            <altitud unidades="m">220</altitud>
+            <distancia unidades="km">2.5</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Els Guiamets</nombre>
+            <longitud unidades="grados">0.7514</longitud>
+            <latitud unidades="grados">41.1021</latitud>
+            <altitud unidades="m">220</altitud>
+            <distancia unidades="km">5.5</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Móra la Nova</nombre>
+            <longitud unidades="grados">0.6506</longitud>
+            <latitud unidades="grados">41.1008</latitud>
+            <altitud unidades="m">44</altitud>
+            <distancia unidades="km">15.3</distancia>
+        </puntoAnonimo>
+
+        <!-- Ribera d'Ebre: Ginestar a El Perelló -->
+        <puntoAnonimo>
+            <nombre>Ginestar</nombre>
+            <longitud unidades="grados">0.6332</longitud>
+            <latitud unidades="grados">41.0425</latitud>
+            <altitud unidades="m">26</altitud>
+            <distancia unidades="km">24.3</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Cruce T-302 (Rasquera)</nombre>
+            <longitud unidades="grados">0.5954</longitud>
+            <latitud unidades="grados">41.0011</latitud>
+            <altitud unidades="m">130</altitud>
+            <distancia unidades="km">30.4</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Tramo intermedio T-302</nombre>
+            <longitud unidades="grados">0.6512</longitud>
+            <latitud unidades="grados">40.9345</latitud>
+            <altitud unidades="m">205</altitud>
+            <distancia unidades="km">40.0</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>El Perelló</nombre>
+            <longitud unidades="grados">0.7118</longitud>
+            <latitud unidades="grados">40.8741</latitud>
+            <altitud unidades="m">157</altitud>
+            <distancia unidades="km">49.5</distancia>
+        </puntoAnonimo>
+
+        <!-- Zona Costa y Delta: L'Ampolla a Amposta -->
+        <puntoAnonimo>
+            <nombre>L'Ampolla</nombre>
+            <longitud unidades="grados">0.7093</longitud>
+            <latitud unidades="grados">40.8105</latitud>
+            <altitud unidades="m">13</altitud>
+            <distancia unidades="km">58.3</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Deltebre</nombre>
+            <longitud unidades="grados">0.7281</longitud>
+            <latitud unidades="grados">40.7186</latitud>
+            <altitud unidades="m">10</altitud>
+            <distancia unidades="km">70.7</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Sant Jaume d'Enveja</nombre>
+            <longitud unidades="grados">0.7165</longitud>
+            <latitud unidades="grados">40.7104</latitud>
+            <altitud unidades="m">5</altitud>
+            <distancia unidades="km">72.6</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Amposta</nombre>
+            <longitud unidades="grados">0.5788</longitud>
+            <latitud unidades="grados">40.7052</latitud>
+            <altitud unidades="m">10</altitud>
+            <distancia unidades="km">83.8</distancia>
+        </puntoAnonimo>
+
+        <!-- Ascenso por el río Ebro: Tortosa a Benifallet -->
+        <puntoAnonimo>
+            <nombre>Ribera del Ebro </nombre>
+            <longitud unidades="grados">0.5512</longitud>
+            <latitud unidades="grados">40.7601</latitud>
+            <altitud unidades="m">14</altitud>
+            <distancia unidades="km">93.0</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Tortosa (Primer paso)</nombre>
+            <longitud unidades="grados">0.5216</longitud>
+            <latitud unidades="grados">40.8124</latitud>
+            <altitud unidades="m">10</altitud>
+            <distancia unidades="km">101.3</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Bitem</nombre>
+            <longitud unidades="grados">0.5255</longitud>
+            <latitud unidades="grados">40.8521</latitud>
+            <altitud unidades="m">18</altitud>
+            <distancia unidades="km">107.8</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Paso por Tivenys</nombre>
+            <longitud unidades="grados">0.5123</longitud>
+            <latitud unidades="grados">40.9083</latitud>
+            <altitud unidades="m">15</altitud>
+            <distancia unidades="km">114.7</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Benifallet</nombre>
+            <longitud unidades="grados">0.5281</longitud>
+            <latitud unidades="grados">40.9754</latitud>
+            <altitud unidades="m">18</altitud>
+            <distancia unidades="km">126.9</distancia>
+        </puntoAnonimo>
+
+        <!-- Zona de montaña: Ascenso hacia Paüls -->
+        <puntoAnonimo>
+            <nombre>Rotonda Prat de Comte</nombre>
+            <longitud unidades="grados">0.4905</longitud>
+            <latitud unidades="grados">40.9902</latitud>
+            <altitud unidades="m">90</altitud>
+            <distancia unidades="km">133.3</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Inicio ascenso Puerto</nombre>
+            <longitud unidades="grados">0.4208</longitud>
+            <latitud unidades="grados">40.9351</latitud>
+            <altitud unidades="m">130</altitud>
+            <distancia unidades="km">144.9</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Cima Puerto de Paüls</nombre>
+            <longitud unidades="grados">0.4005</longitud>
+            <latitud unidades="grados">40.9238</latitud>
+            <altitud unidades="m">381</altitud>
+            <distancia unidades="km">148.4</distancia>
+        </puntoAnonimo>
+
+        <!-- Bajada y final: Xerta a Roquetes -->
+        <puntoAnonimo>
+            <nombre>Paüls (Exterior)</nombre>
+            <longitud unidades="grados">0.4158</longitud>
+            <latitud unidades="grados">40.9152</latitud>
+            <altitud unidades="m">290</altitud>
+            <distancia unidades="km">151.4</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Xerta</nombre>
+            <longitud unidades="grados">0.4912</longitud>
+            <latitud unidades="grados">40.9056</latitud>
+            <altitud unidades="m">12</altitud>
+            <distancia unidades="km">159.5</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Tortosa (Segundo paso)</nombre>
+            <longitud unidades="grados">0.5204</longitud>
+            <latitud unidades="grados">40.8153</latitud>
+            <altitud unidades="m">12</altitud>
+            <distancia unidades="km">171.7</distancia>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Roquetes (Meta)</nombre>
+            <longitud unidades="grados">0.5008</longitud>
+            <latitud unidades="grados">40.8194</latitud>
+            <altitud unidades="m">25</altitud>
+            <distancia unidades="km">173.3</distancia>
+        </puntoAnonimo>
+    </puntosAnonimos>
+</hitos>
+
+  <clasificacionEtapa>
+        <clasificadoEtapa puesto="1" nombre="James Matthew Brennan" equipo="Team Visma | Lease a Bike">
+            <tiempo>PT3H47M2S</tiempo>
+        </clasificadoEtapa>
+        <clasificadoEtapa puesto="2" nombre="Jordi Meeus" equipo="Red Bull-Bora-Hansgrohe">
+            <tiempo>PT3H47M2S</tiempo>
+            <diferencia>PT0S</diferencia>
+        </clasificadoEtapa>
+        <clasificadoEtapa puesto="3" nombre="Vincenzo Albanese" equipo="EF Education-EasyPost">
+            <tiempo>PT3H47M2S</tiempo>
+            <diferencia>PT0S</diferencia>
+        </clasificadoEtapa>
+    </clasificacionEtapa>
+
+    <clasificacionGeneral>
+        <clasificadoGeneral puesto="1" nombre="Tadej Pogačar" equipo="UAE Team Emirates XRG">
+            <tiempo>PT11H26M1S</tiempo>
+        </clasificadoGeneral>
+        <clasificadoGeneral puesto="2" nombre="Primož Roglič" equipo="Red Bull-Bora-Hansgrohe">
+            <tiempo>PT11H29M22S</tiempo>
+            <diferencia>PT3M21S</diferencia>
+        </clasificadoGeneral>
+        <clasificadoGeneral puesto="3" nombre="Enric Mas" equipo="Movistar Team">
+            <tiempo>PT11H29M33S</tiempo>
+            <diferencia>PT3M32S</diferencia>
+        </clasificadoGeneral>
+    </clasificacionGeneral>
+
+    <clasificacionEquipos>
+        <clasificadoEquipo puesto="1" nombre="UAE Team Emirates XRG">
+            <tiempo>PT34H27M48S</tiempo>
+        </clasificadoEquipo>
+        <clasificadoEquipo puesto="2" nombre="Decathlon CMA CGM Team">
+            <tiempo>PT34H34M8S</tiempo>
+            <diferencia>PT6M20S</diferencia>
+        </clasificadoEquipo>
+        <clasificadoEquipo puesto="3" nombre="Team Visma | Lease a Bike">
+            <tiempo>PT34H38M14S</tiempo>
+            <diferencia>PT10M26S</diferencia>
+        </clasificadoEquipo>
+    </clasificacionEquipos>
+</etapa>

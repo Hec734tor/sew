@@ -1,0 +1,119 @@
+<!ELEMENT etapa (
+    nombreEtapa,
+    numeroEtapa,
+    longitudEtapa,
+    fechaEtapa,
+    tiempoGanador,
+    velocidadMedia,
+    desnivel,
+    ciudadSalida,
+    ciudadLlegada,
+    tipoEtapa,
+    referencias,
+    galeriaFotos,
+    galeriaVideos,
+    galeriaSonidos,
+    salida,
+    meta,
+    hitos,
+    clasificacionEtapa,
+    clasificacionGeneral,
+    clasificacionEquipos
+)>
+
+<!ELEMENT nombreEtapa (#PCDATA)>
+<!ELEMENT numeroEtapa (#PCDATA)>
+<!ELEMENT longitudEtapa (#PCDATA)>
+<!ATTLIST longitudEtapa unidades CDATA #FIXED "km">
+
+<!ELEMENT fechaEtapa (#PCDATA)>
+
+<!ELEMENT tiempoGanador (#PCDATA)>
+<!ATTLIST tiempoGanador unidades CDATA #FIXED "hh:mm:ss">
+
+<!ELEMENT velocidadMedia (#PCDATA)>
+<!ATTLIST velocidadMedia unidades CDATA #FIXED "km/h">
+
+<!ELEMENT desnivel (#PCDATA)>
+<!ATTLIST desnivel unidades CDATA #FIXED "m">
+
+<!ELEMENT ciudadSalida (#PCDATA)>
+<!ELEMENT ciudadLlegada (#PCDATA)>
+
+<!ELEMENT tipoEtapa EMPTY>
+<!ATTLIST tipoEtapa valor (llana|montaña|contrarrelojIndividual|contrarrelojEquipos|mediaMontaña|ondulada) #REQUIRED>
+
+<!ELEMENT referencias (referencia, referencia, referencia,referencia*)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT galeriaFotos (foto,foto?,foto?,foto?,foto?)>
+<!ELEMENT foto (#PCDATA)>
+
+<!ELEMENT galeriaVideos (video, video?, video?)>
+<!ELEMENT video (#PCDATA)>
+
+
+<!ELEMENT galeriaSonidos (sonido, sonido?, sonido?)>
+<!ELEMENT sonido (#PCDATA)>
+
+<!ELEMENT salida (longitud, latitud, altitud)>
+<!ELEMENT meta (longitud, latitud, altitud)>
+
+<!-- Contenedor principal de los hitos -->
+<!ELEMENT hitos (puertos?, sprints?, puntosAnonimos)>
+
+<!-- Subcontenedores -->
+<!ELEMENT puertos (puerto*)>
+<!ELEMENT sprints (sprint*)>
+<!ELEMENT puntosAnonimos (puntoAnonimo+)>
+
+<!-- Definición de los elementos individuales -->
+<!ELEMENT puerto (nombre, longitud, latitud, altitud, distancia)>
+<!ATTLIST puerto tipoPuerto (1_categoría | 2_categoría | 3_categoría | categoria_especial | bonificado) #REQUIRED>
+
+<!ELEMENT sprint (nombre, longitud, latitud, altitud, distancia)>
+<!ATTLIST sprint tipoSprint (intermedio|bonificado) #REQUIRED>
+
+<!ELEMENT puntoAnonimo (nombre?, longitud, latitud, altitud, distancia)>
+
+<!-- Elementos básicos de datos -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidades CDATA #FIXED "grados">
+
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud unidades CDATA #FIXED "grados">
+
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidades CDATA #FIXED "m">
+
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidades CDATA #FIXED "km">
+
+
+<!ELEMENT tiempo (#PCDATA)>
+<!ATTLIST tiempo unidades CDATA #FIXED "hh:mm:ss">
+
+<!ELEMENT diferencia (#PCDATA)>
+<!ATTLIST diferencia unidades CDATA #FIXED "hh:mm:ss">
+
+<!ELEMENT clasificacionEtapa (clasificadoEtapa, clasificadoEtapa, clasificadoEtapa)>
+<!ELEMENT clasificadoEtapa (tiempo, diferencia?)>
+<!ATTLIST clasificadoEtapa 
+          puesto (1|2|3) #REQUIRED
+          nombre CDATA #REQUIRED
+          equipo CDATA #REQUIRED>
+
+<!ELEMENT clasificacionGeneral (clasificadoGeneral, clasificadoGeneral, clasificadoGeneral)>
+<!ELEMENT clasificadoGeneral (tiempo, diferencia?)>
+<!ATTLIST clasificadoGeneral 
+          puesto (1|2|3) #REQUIRED
+          nombre CDATA #REQUIRED
+          equipo CDATA #REQUIRED>
+
+<!ELEMENT clasificacionEquipos (clasificadoEquipo, clasificadoEquipo, clasificadoEquipo)>
+<!ELEMENT clasificadoEquipo (tiempo, diferencia?)>
+<!ATTLIST clasificadoEquipo 
+          puesto (1|2|3) #REQUIRED
+          nombre CDATA #REQUIRED>

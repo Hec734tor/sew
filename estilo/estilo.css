@@ -1,0 +1,89 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos:Héctor Gavilán Menéndez*/
+/*  Correo electrónico (uniovi): UO306079@uniovi.es */
+/*  Grupo de laboratorio:3        */
+/* ***************************************/
+
+/* Gama cromática
+Color principal: #F8E9B5
+    contraste de 7.08:1 con color secundario
+    contraste de 17.31:1con color negro
+Color secundario: #0000ff
+    constraste de 7.08:1con color principal
+    contraste de 8.59:1 con color blanco
+
+Color negro: #000000
+Color blanco: #FFFFFF
+
+*/
+
+:root {
+    --color-principal: #F8E9B5;
+    --color-secundario: #0000ff;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+/*Especificidad: 001 */
+
+body {
+    background-color: var(--color-blanco);
+    color:var(--color-negro);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Especificidad: 001*/
+
+header, footer {
+    background-color: var(--color-principal);
+    color: var(--color-negro);
+}
+feComponentTransfer
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-secundario);
+}
+/*Especificidad: 002*/
+/*ADVERTENCIA: color heredado de header y footer --color principal*/
+
+header a, footer a {
+color : inherit; /*Aplico la herencia para no duplicar código*/
+text-decoration: none;
+}
+/*Especificidad: 013*/
+header nav a[aria-current="page"] {
+    color: var(--color-secundario);
+}
+ /*nav es hermano de header, estan al mismo nivel y luego ol es hijo de nav */
+/*Especificidad: 003*/
+header + nav > ol {
+font-size: 0.8em;
+list-style: none;
+}
+/*Especificidad: 004*/
+header + nav >ol >li {
+display:inline;
+}
+/*Especificidad: 014*/
+header + nav >ol> li:last-child {
+    font-weight: bold;
+}
+/*Especificidad: 014*/
+section:has(picture) > ul > li:first-child{
+   font-size: 1.5em;
+   font-weight:  bold;
+}
+/*Especificidad: 014*/
+section:has(picture) > ul > li:nth-child(3){
+  
+   font-size: 1.5em;
+}
+/*Especificidad: 014*/
+section:has(picture) > ul > li:nth-child(4){
+   font-weight: bold;
+   
+}

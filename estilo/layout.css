@@ -1,0 +1,131 @@
+/* ***************************************/
+/*           LaVuelta2026                */
+/*          Estilos layout               */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Héctor Gavilán Menéndez                  */
+/*  Correo electrónico (uniovi): uo306079@uniovi.es         */
+/*  Grupo de laboratorio: 3            */
+/* ***************************************/
+/*Especificidad: 002*/
+section:has(picture) {
+   display:flex;
+   flex-wrap:wrap;
+   align-items:center;
+}
+/*Especificidad: 003*/
+section:has(picture) > picture {
+   order: 1;
+}
+/*Especificidad: 003*/
+section:has(picture) > ul{
+   order: 2;
+   list-style: none; /*Elimino las viñetas de la lista*/
+}
+/*Especificidad: 003*/
+section:has(picture) > h3 {
+    flex-basis:100%;
+}
+/*Especificidad: 002 */
+section:has(video) {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start; /*Esta propiedad permite alinear los elemento al inicio del eje */
+
+}
+/*Especificidad: 003*/
+section:has(article + article)  {
+    display:grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-items: center; /*Elementos centrados respecto al eje horizontal*/
+    align-items: center; /*Elementos centrados respecto al eje vertical*/
+    gap: 1em; /*Espacio entre elementos del grid*/
+}
+/*Especificidad: 004 */
+section:has(article + article) > h3 {
+    grid-column: 1 / -1; /*El título ocupa la primera fila del grid y todas las columnas*/
+    
+}
+/*Especificidad: 001 */
+body{
+    display:grid;
+    min-height: 100vh; /*El nav ocupa toda la altura*/
+    grid-template-areas: "cabecera" "migas" "contenido" "pie";
+    grid-template-rows: auto auto 1fr auto; /*La fila del contenido ocupa el espacio restante*/
+     margin : 0 ;
+}
+/*Especificidad: 002*/
+body >header {
+    grid-area:cabecera;
+    display:flex;
+    justify-content: space-between; /*Los elementos del header se separan a los extremos*/
+    align-items: center; /*Los elementos del header se alinean verticalmente al centro*/
+   padding: 0 1em; /*Separación respecto a los bordes de la ventana*/
+
+}
+/*Especificidad: 003*/
+body > header +nav {
+    grid-area:migas;
+    gap: 1em;
+}
+    /*Especificidad: 002*/
+body > main{
+    grid-area:contenido;
+}
+    /*Especificidad: 002*/
+body >footer {
+    grid-area: pie;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em; /*Separación respecto a los bordes de la ventana*/
+}
+
+/* ============ Tablets ============ */
+@media (max-width: 1024px) {
+
+    /*Especificidad: 003*/
+    section:has(article + article) {
+        grid-template-columns: repeat(2, 1fr); /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+    }
+
+    /*Especificidad: 002*/
+    body > header {
+        flex-direction: column; 
+        align-items: stretch; /*ADVERTENCIA: redefinición de la propiedad con valor original center */
+    }
+
+    /*Especificidad: 003*/
+    body > header > nav {
+        justify-content: space-evenly; /*Opciones repartidas con el mismo espacio*/
+    }
+
+    /*Especificidad: 003*/
+    body > header + nav {
+        display: none; /*Las migas no se muestran*/
+    }
+}
+
+/* ============ Móviles ============ */
+@media (max-width: 768px) {
+
+    /*Especificidad: 003*/
+    section:has(article + article) {
+        grid-template-columns: 1fr; /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+    }
+
+    /*Especificidad: 003*/
+    body > header > nav {
+        flex-direction: column; /*Opciones del menú una debajo de otra*/
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+

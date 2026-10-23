@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="2400" height="800" style="background-color: white; font-family: Arial, sans-serif;">
+  <line x1="100" y1="650" x2="2300" y2="650" stroke="black" stroke-width="2" />
+  <line x1="100.0" y1="650" x2="100.0" y2="437.40157480314963" stroke="#cccccc" stroke-width="1" />
+  <text x="85.0" y="670" font-size="11" style="fill: #333;">0.0 km</text>
+  <text x="104.0" y="427.40157480314963" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 104.0,427.40157480314963)">Falset (Salida) (270.0 m)</text>
+  <line x1="131.73687247547605" y1="650" x2="131.73687247547605" y2="476.7716535433071" stroke="#cccccc" stroke-width="1" />
+  <text x="116.73687247547605" y="690" font-size="11" style="fill: #333;">2.5 km</text>
+  <text x="135.73687247547605" y="466.7716535433071" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 135.73687247547605,466.7716535433071)">Rotonda Capçanes (220.0 m)</text>
+  <line x1="169.8211194460473" y1="650" x2="169.8211194460473" y2="476.7716535433071" stroke="#cccccc" stroke-width="1" />
+  <text x="154.8211194460473" y="670" font-size="11" style="fill: #333;">5.5 km</text>
+  <text x="173.8211194460473" y="466.7716535433071" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 173.8211194460473,466.7716535433071)">Els Guiamets (220.0 m)</text>
+  <line x1="294.22965954991344" y1="650" x2="294.22965954991344" y2="615.3543307086615" stroke="#cccccc" stroke-width="1" />
+  <text x="279.22965954991344" y="690" font-size="11" style="fill: #333;">15.3 km</text>
+  <text x="298.22965954991344" y="605.3543307086615" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 298.22965954991344,605.3543307086615)">Móra la Nova (44.0 m)</text>
+  <line x1="408.48240046162726" y1="650" x2="408.48240046162726" y2="629.5275590551181" stroke="#cccccc" stroke-width="1" />
+  <text x="393.48240046162726" y="670" font-size="11" style="fill: #333;">24.3 km</text>
+  <text x="412.48240046162726" y="619.5275590551181" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 412.48240046162726,619.5275590551181)">Ginestar (26.0 m)</text>
+  <line x1="485.92036930178875" y1="650" x2="485.92036930178875" y2="547.6377952755905" stroke="#cccccc" stroke-width="1" />
+  <text x="470.92036930178875" y="690" font-size="11" style="fill: #333;">30.4 km</text>
+  <text x="489.92036930178875" y="537.6377952755905" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 489.92036930178875,537.6377952755905)">Cruce T-302 (Rasquera) (130.0 m)</text>
+  <line x1="607.7899596076168" y1="650" x2="607.7899596076168" y2="488.5826771653543" stroke="#cccccc" stroke-width="1" />
+  <text x="592.7899596076168" y="670" font-size="11" style="fill: #333;">40.0 km</text>
+  <text x="611.7899596076168" y="478.5826771653543" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 611.7899596076168,478.5826771653543)">Tramo intermedio T-302 (205.0 m)</text>
+  <line x1="728.3900750144259" y1="650" x2="728.3900750144259" y2="526.3779527559055" stroke="#cccccc" stroke-width="1" />
+  <text x="713.3900750144259" y="690" font-size="11" style="fill: #333;">49.5 km</text>
+  <text x="732.3900750144259" y="516.3779527559055" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 732.3900750144259,516.3779527559055)">El Perelló (157.0 m)</text>
+  <line x1="840.1038661281015" y1="650" x2="840.1038661281015" y2="639.7637795275591" stroke="#cccccc" stroke-width="1" />
+  <text x="825.1038661281015" y="670" font-size="11" style="fill: #333;">58.3 km</text>
+  <text x="844.1038661281015" y="629.7637795275591" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 844.1038661281015,629.7637795275591)">L'Ampolla (13.0 m)</text>
+  <line x1="997.5187536064628" y1="650" x2="997.5187536064628" y2="642.1259842519685" stroke="#cccccc" stroke-width="1" />
+  <text x="982.5187536064628" y="690" font-size="11" style="fill: #333;">70.7 km</text>
+  <text x="1001.5187536064628" y="632.1259842519685" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1001.5187536064628,632.1259842519685)">Deltebre (10.0 m)</text>
+  <line x1="1021.6387766878245" y1="650" x2="1021.6387766878245" y2="646.0629921259842" stroke="#cccccc" stroke-width="1" />
+  <text x="1006.6387766878245" y="670" font-size="11" style="fill: #333;">72.6 km</text>
+  <text x="1025.6387766878245" y="636.0629921259842" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1025.6387766878245,636.0629921259842)">Sant Jaume d'Enveja (5.0 m)</text>
+  <line x1="1163.8199653779573" y1="650" x2="1163.8199653779573" y2="642.1259842519685" stroke="#cccccc" stroke-width="1" />
+  <text x="1148.8199653779573" y="690" font-size="11" style="fill: #333;">83.8 km</text>
+  <text x="1167.8199653779573" y="632.1259842519685" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1167.8199653779573,632.1259842519685)">Amposta (10.0 m)</text>
+  <line x1="1280.6116560877092" y1="650" x2="1280.6116560877092" y2="638.9763779527559" stroke="#cccccc" stroke-width="1" />
+  <text x="1265.6116560877092" y="670" font-size="11" style="fill: #333;">93.0 km</text>
+  <text x="1284.6116560877092" y="628.9763779527559" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1284.6116560877092,628.9763779527559)">Ribera del Ebro (14.0 m)</text>
+  <line x1="1385.9780727062896" y1="650" x2="1385.9780727062896" y2="642.1259842519685" stroke="#cccccc" stroke-width="1" />
+  <text x="1370.9780727062896" y="690" font-size="11" style="fill: #333;">101.3 km</text>
+  <text x="1389.9780727062896" y="632.1259842519685" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1389.9780727062896,632.1259842519685)">Tortosa (Primer paso) (10.0 m)</text>
+  <line x1="1468.4939411425273" y1="650" x2="1468.4939411425273" y2="635.8267716535433" stroke="#cccccc" stroke-width="1" />
+  <text x="1453.4939411425273" y="670" font-size="11" style="fill: #333;">107.8 km</text>
+  <text x="1472.4939411425273" y="625.8267716535433" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1472.4939411425273,625.8267716535433)">Bitem (18.0 m)</text>
+  <line x1="1556.0877091748414" y1="650" x2="1556.0877091748414" y2="638.1889763779527" stroke="#cccccc" stroke-width="1" />
+  <text x="1541.0877091748414" y="690" font-size="11" style="fill: #333;">114.7 km</text>
+  <text x="1560.0877091748414" y="628.1889763779527" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1560.0877091748414,628.1889763779527)">Paso por Tivenys (15.0 m)</text>
+  <line x1="1710.9636468551646" y1="650" x2="1710.9636468551646" y2="635.8267716535433" stroke="#cccccc" stroke-width="1" />
+  <text x="1695.9636468551646" y="670" font-size="11" style="fill: #333;">126.9 km</text>
+  <text x="1714.9636468551646" y="625.8267716535433" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1714.9636468551646,625.8267716535433)">Benifallet (18.0 m)</text>
+  <line x1="1792.2100403923832" y1="650" x2="1792.2100403923832" y2="579.1338582677165" stroke="#cccccc" stroke-width="1" />
+  <text x="1777.2100403923832" y="690" font-size="11" style="fill: #333;">133.3 km</text>
+  <text x="1796.2100403923832" y="569.1338582677165" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1796.2100403923832,569.1338582677165)">Rotonda Prat de Comte (90.0 m)</text>
+  <line x1="1939.4691286785921" y1="650" x2="1939.4691286785921" y2="547.6377952755905" stroke="#cccccc" stroke-width="1" />
+  <text x="1924.4691286785921" y="670" font-size="11" style="fill: #333;">144.9 km</text>
+  <text x="1943.4691286785921" y="537.6377952755905" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1943.4691286785921,537.6377952755905)">Inicio ascenso Puerto (130.0 m)</text>
+  <line x1="1983.9007501442586" y1="650" x2="1983.9007501442586" y2="350.0" stroke="#cccccc" stroke-width="1" />
+  <text x="1968.9007501442586" y="690" font-size="11" style="fill: #333;">148.4 km</text>
+  <text x="1987.9007501442586" y="340.0" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 1987.9007501442586,340.0)">Cima Puerto de Paüls (381.0 m)</text>
+  <line x1="2021.9849971148299" y1="650" x2="2021.9849971148299" y2="421.6535433070866" stroke="#cccccc" stroke-width="1" />
+  <text x="2006.9849971148299" y="670" font-size="11" style="fill: #333;">151.4 km</text>
+  <text x="2025.9849971148299" y="411.6535433070866" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 2025.9849971148299,411.6535433070866)">Paüls (Exterior) (290.0 m)</text>
+  <line x1="2124.812463935372" y1="650" x2="2124.812463935372" y2="640.5511811023622" stroke="#cccccc" stroke-width="1" />
+  <text x="2109.812463935372" y="690" font-size="11" style="fill: #333;">159.5 km</text>
+  <text x="2128.812463935372" y="630.5511811023622" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 2128.812463935372,630.5511811023622)">Xerta (12.0 m)</text>
+  <line x1="2279.688401615695" y1="650" x2="2279.688401615695" y2="640.5511811023622" stroke="#cccccc" stroke-width="1" />
+  <text x="2264.688401615695" y="670" font-size="11" style="fill: #333;">171.7 km</text>
+  <text x="2283.688401615695" y="630.5511811023622" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 2283.688401615695,630.5511811023622)">Tortosa (Segundo paso) (12.0 m)</text>
+  <line x1="2300.0" y1="650" x2="2300.0" y2="630.3149606299213" stroke="#cccccc" stroke-width="1" />
+  <text x="2285.0" y="690" font-size="11" style="fill: #333;">173.3 km</text>
+  <text x="2304.0" y="620.3149606299213" font-size="14" style="fill: black; font-weight: bold;" transform="rotate(-90 2304.0,620.3149606299213)">Roquetes (Meta) (25.0 m)</text>
+  <polyline points="100,650 100.0,437.40157480314963 131.73687247547605,476.7716535433071 169.8211194460473,476.7716535433071 294.22965954991344,615.3543307086615 408.48240046162726,629.5275590551181 485.92036930178875,547.6377952755905 607.7899596076168,488.5826771653543 728.3900750144259,526.3779527559055 840.1038661281015,639.7637795275591 997.5187536064628,642.1259842519685 1021.6387766878245,646.0629921259842 1163.8199653779573,642.1259842519685 1280.6116560877092,638.9763779527559 1385.9780727062896,642.1259842519685 1468.4939411425273,635.8267716535433 1556.0877091748414,638.1889763779527 1710.9636468551646,635.8267716535433 1792.2100403923832,579.1338582677165 1939.4691286785921,547.6377952755905 1983.9007501442586,350.0 2021.9849971148299,421.6535433070866 2124.812463935372,640.5511811023622 2279.688401615695,640.5511811023622 2300.0,630.3149606299213 2300.0,650" stroke="red" stroke-width="4" fill="#ffcccc" />
+</svg>
